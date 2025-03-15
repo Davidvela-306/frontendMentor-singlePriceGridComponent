@@ -32,7 +32,7 @@ main {
 }
 .suscription {
   display: grid;
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   border-radius: 0.5ch;
@@ -76,7 +76,7 @@ li {
   color: white;
   width: 100%;
   font-size: 1em;
-  padding: 2ch 0;
+  padding: 1ch 0;
   border-radius: 0.8ch;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
 }
@@ -92,12 +92,12 @@ li {
   color: var(--primary-cyan-light-3);
 }
 
-@media screen and (width >= 800px) {
+@media screen and (width >= 1200px) {
   .suscription {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  .card{
+  .card {
     gap: 0px;
   }
   #card-1 {
