@@ -34,8 +34,6 @@ main {
   display: grid;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   border-radius: 0.5ch;
-  flex-grow: 1; /* Permite que la sección se ajuste al espacio disponible */
-  overflow: auto; /* Evita el desbordamiento añadiendo un scroll si es necesario */
 }
 
 li {
@@ -96,6 +94,8 @@ li {
 @media screen and (width >= 1200px) {
   main {
     padding: 20ch 40ch;
+    display: flex;
+    justify-content: center;
   }
   .suscription {
     grid-template-columns: repeat(2, 1fr);
